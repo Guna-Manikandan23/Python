@@ -1,0 +1,105 @@
+Syntax:
+
+<ul> ....</ul>
+
+
+
+exercise 1:
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Nested list</title>  
+</head>  
+<body>  
+    <p>List of Indian States with thier capital</p>  
+<ol>  
+    <li>Delhi  
+        <ul>  
+            <li>NewDelhi</li>  
+        </ul>  
+    </li>  
+    <li>Haryana  
+        <ul>  
+            <li>Chandigarh</li>  
+        </ul>  
+    </li>  
+    <li>Gujarat  
+        <ul>  
+            <li>Gandhinagar</li>  
+        </ul>  
+    </li>  
+    <li>Rajasthan   
+        <ul>  
+            <li>Jaipur</li>  
+        </ul>  
+    </li>  
+    <li>Maharashtra  
+        <ul>  
+            <li>Mumbai</li>  
+        </ul>  
+    </li>  
+    <li>Uttarpradesh  
+        <ul>  
+            <li>Lucknow</li></ul>  
+    </li>  
+</ol>  	
+</body>  
+</html>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exercise 2:
+
+
+<html>
+<body>
+
+<h2>A Nested List</h2>
+<p>Lists can be nested (list inside list):</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+
+</body>
+</html>
+
+
+ADDING NEW LIST:.
+
+<ul>
+  <li>Fruit
+    <ul>
+      <li>Bananas</li>
+      <li>Apples
+        <ul>
+          <li>Green</li>
+          <li>Red</li>
+        </ul>
+      </li>
+      <li>Pears</li>
+    </ul>
+  </li>
+  <li>Vegetables</li>
+  <li>Meat</li>
+</ul>

@@ -1,0 +1,173 @@
+colspan= — Code Examples
+Using colspan= for single-row titling
+
+<table>
+ <caption>Invoice</caption>
+ <tr>
+  <th>Item / Desc.</th>
+  <th>Qty.</th>
+  <th>@</th>
+  <th>Price</th>
+ </tr>
+ <tr>
+  <td>Paperclips (Box)</td>
+  <td>100</td>
+  <td>1.15</td> 
+  <td>115.00</td>
+ </tr>
+ <tr>
+  <td>Paper (Case)</td>
+  <td>10</td>
+  <td>45.99</td>
+  <td>459.90</td>
+ </tr>
+ <tr>
+  <td>Wastepaper Baskets</td>
+  <td>2</td>
+  <td>17.99</td>
+  <td>35.98</td>
+ </tr>
+ <tr>
+  <th colspan="3">Subtotal</th>
+  <td>610.88</td>
+ </tr>
+ <tr>
+  <th colspan="2">Tax</th>
+  <td>7%</td>
+  <td>42.76</td>
+ </tr>
+ <tr>
+  <th colspan="3">Total</th>
+  <td>653.64</td>
+ </tr>
+</table>
+
+
+
+rowspan= — Code Example
+<table>
+ <caption>Favorite and Least Favorite Things</caption>
+ <tr>
+  <th></th><th></th>
+  <th>Bob</th>
+  <th>Alice</th>
+ </tr>
+ <tr>
+  <th rowspan="2">Favorite</th>
+  <th>Color</th>
+  <td>Blue</td>
+  <td>Purple</td>
+ </tr>
+ <tr>
+  <th>Flavor</th>
+  <td>Banana</td>
+  <td>Chocolate</td>
+ </tr>
+ <tr>
+  <th rowspan="2">Least Favorite</th>
+  <th>Color</th>
+  <td>Yellow</td>
+  <td>Pink</td>
+ </tr>
+ <tr>
+  <th>Flavor</th>
+  <td>Mint</td>
+  <td>Walnut</td>
+ </tr>
+</table>
+
+
+
+<table border="1">
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+    <th>Gender</th>
+  </tr>
+  <tr>
+    <td>Chris</td>
+    <td>Valler</td>
+    <td>25</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>Catherine</td>
+    <td>Smith</td>
+    <td>32</td>
+    <td>Female</td>
+  </tr>
+</table>
+
+
+
+Rowspan in HTML table
+Rowspan is an HTML table attribute that allows a single table cell to span across multiple rows vertically. It is used to merge two or more adjacent rows into a single cell.
+
+The rowspan attribute is specified in the opening td tag of the cell to be merged, and the value of the attribute indicates the number of rows to span. For example, if you want to merge three adjacent rows into a single cell, you would set the rowspan attribute to 3:
+
+ 
+<table border="1">
+  <tr>
+    <td rowspan="3">Merged cell spanning 3 rows</td>
+    <td>Column 2</td>
+  </tr>
+  <tr>
+    <td>Column 2</td>
+  </tr>
+  <tr>
+    <td>Column 2</td>
+  </tr>
+</table>
+
+
+
+In the above example, the first cell in the first column has a rowspan attribute of 3, which means it spans across three rows. As a result, it occupies the space of three cells, merging them into a single cell.
+
+Following is another example that demonstrates the use of rowspan to create a table with a header column that spans multiple rows:
+
+ 
+<table border="1">
+  <tr>
+    <th rowspan="2">Name</th>
+    <th>Age</th>
+    <th>Gender</th>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>32</td>
+    <td>Female</td>
+  </tr>
+</table>
+
+
+
+
+Can colspan and rowspan be used together in a single cell?
+Yes, it is possible to use both colspan and rowspan in a single cell. This allows you to merge cells both horizontally and vertically, creating more complex table layouts.
+
+To use both colspan and rowspan in a single cell, you need to follow these steps:
+
+Identify the cell that you want to merge with cells in the rows below and the columns to the right of it.
+In the opening td tag of this cell, add both the colspan and rowspan attributes with values that specify the number of rows and columns the cell should span.
+Leave the cells in the rows below and the columns to the right of the merged cell empty. These cells will be automatically merged into the merged cell by the browser.
+Following is an example that shows how to use both colspan and rowspan in a single cell:
+
+ 
+<table border="1">
+  <tr>
+    <td rowspan="2" colspan="2">Merged cell</td>
+    <td>Column 3</td>
+  </tr>
+  <tr>
+    <td>Column 3</td>
+  </tr>
+  <tr>
+    <td>Column 1</td>
+    <td>Column 2</td>
+    <td>Column 3</td>
+  </tr>
+</table>

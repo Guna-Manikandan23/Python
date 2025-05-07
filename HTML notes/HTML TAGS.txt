@@ -1,0 +1,232 @@
+
+HTML Tags
+HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain three main parts: opening tag, content and closing tag. But some HTML tags are unclosed tags.
+                                                                                                                                                                             
+When a web browser reads an HTML document, browser reads it from top to bottom and left to right. HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.
+
+An HTML file must have some essential tags so that web browser can differentiate between a simple text and HTML text. You can use as many tags you want as per your code requirement.
+
+All HTML tags must enclosed within < > these brackets.
+Every tag in HTML perform different tasks.
+If you have used an open tag <tag>, then you must use a close tag </tag> (except some tags)
+Syntax
+<tag> content </tag>
+
+
+Unclosed HTML Tags
+Some HTML tags are not closed, for example br and hr.
+
+<br> Tag: br stands for break line, it breaks the line of the code.
+
+<hr> Tag: hr stands for Horizontal Rule. This tag is used to put a line across the webpage.
+
+HTML Meta Tags
+DOCTYPE, title, link, meta and style
+
+HTML Text Tags
+<p>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <strong>, <em>, <abbr>, <acronym>, <address>, <bdo>, <blockquote>, <cite>, <q>, <code>, <ins>, <del>, <dfn>, <kbd>, <pre>, <samp>, <var> and <br>
+HTML Link Tags
+<a> and <base>
+
+HTML 
+
+<img>, <area>, <map>, <param> and <object>
+
+HTML List Tags
+<ul>, <ol>, <li>, <dl>, <dt> and <dd>
+HTML Table Tags
+table, tr, td, th, tbody, thead, tfoot, col, colgroup and caption
+
+HTML Form Tags
+form, input, textarea, select, option, optgroup, button, label, fieldset and legend
+
+HTML Scripting Tags`````
+script and noscript
+
+Note: We will see examples using these tags in later charters.
+HTML Tags List
+Following is the complete list of HTML tags with the description which are arranged alphabetically.
+
+
+
+                    
+         FORMATTING TAGS 
+In HTML the formatting tags are divided into two categories:
+
+Physical tag: These tags are used to provide the visual appearance to the text.
+Logical tag: These tags are used to add some logical or semantic value to the text.
+
+
+HTML Anchor
+The HTML anchor tag defines a hyperlink that links one page to another page. It can create hyperlink to other web page as well as files, location, or any URL. The "href" attribute is the most important attribute of the HTML a tag. and which links to destination page or URL.
+
+href attribute of HTML anchor tag
+The href attribute is used to define the address of the file to be linked. In other words, it points out the destination page.
+
+The syntax of HTML anchor tag is given below.
+
+<a href = "..........."> Link Text </a>
+
+
+Appearance of HTML anchor tag
+An unvisited link is displayed underlined and blue.
+
+A visited link displayed underlined and purple.
+
+An active link is underlined and red.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Tags
+<!-->
+<!DOCTYPE>
+<a>
+<abbr>
+<acronym>
+<address>
+<applet>
+<area>
+<article>
+<aside>
+<audio>
+<b>
+<base>
+<basefont>
+<bdi>
+<bdo>
+<big>
+<blockquote>
+<body>
+<br>
+<button>
+<canvas>
+<caption>
+<center>
+<cite>
+<code>
+<col>
+<colgroup>
+<data>
+<datalist>
+<dd>
+<del>
+<details>
+<dfn>
+<dialog>
+<dir>
+<div>
+<dl>
+<dt>
+<em>
+<embed>
+<fieldset>
+<figcaption>
+<figure>
+<font>
+<footer>
+<form>
+<frame>
+<frameset>
+<h1> - <h6>
+<head>
+<header>
+<hr>
+<html>
+<i>
+<iframe>
+<img>
+<input>
+<ins>
+<kbd>
+<label>
+<legend>
+<li>
+<link>
+<main>
+<map>
+<mark>
+<meta>
+<meter>
+<nav>
+<noframes>
+<noscript>
+<object>
+<ol>
+<optgroup>
+<option>
+<output>
+<p>
+<param>
+<picture>
+<pre>
+<progress>
+<q>
+<rp>
+<rt>
+<ruby>
+<s>
+<samp>
+<script>
+<section>
+<select>
+<small>
+<source>
+<span>
+<strike>
+<strong>
+<style>
+<sub>
+<summary>
+<sup>
+<svg>
+<table>
+<tbody>
+<td>
+<template>
+<textarea>
+<tfoot>
+<th>
+<thead>
+<time>
+<title>
+<tr>
+<track>
+<tt>
+<u>
+<ul>
+<var>
+<video>
+<wbr>

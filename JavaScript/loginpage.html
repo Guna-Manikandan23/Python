@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .login-container {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="login-container">
+            <h2>LoginPage</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button type="button" onclick="validateLogin()">Login</button>
+                <p class="error" id="errorMessage"></p>
+            </form>
+        </div>
+        <script>
+            function validateLogin() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+                var errorMessage = document.getElementById("errorMessage");
+        
+                if (username === "" || password === "") {
+                    errorMessage.textContent = "Username and Password are required!";
+                    return;
+                }
+                
+                if (username === "admin" && password === "12345") {
+                    alert("Login Successful!");
+                    window.location.href = "dashboard.html";  // Redirect to a new page
+                } else {
+                    errorMessage.textContent = "Invalid Username or Password!";
+                }
+            }
+        </script>
+    </body>
+</html>

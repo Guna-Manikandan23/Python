@@ -1,0 +1,16 @@
+body{
+    background-image: url(./newimage/look.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+   
+}
+.float{
+    float: right;
+    padding:  20px 20px;
+}
+button{
+    background-color: aqua;
+    padding:40px;
+}
+

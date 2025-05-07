@@ -1,0 +1,18 @@
+UTF= UNICODE TRANSFORMATION FORMAT
+Ascii=american standard code for interface interchange
+
+
+
+behaviour layer- Javascript 
+presentation layer- css
+
+
+japanese 
+
+mostly important for ranking 
+search engine- search title-" "-quick content view -using for <meta name="description" content="description bnkjn  m, n lki "/> 
+
+<meta name="author" content="  name"/>
+<meta name="keywords" content="html,html5,sematic tags"/>
+<meta  charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">

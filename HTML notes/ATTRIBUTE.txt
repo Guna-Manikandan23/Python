@@ -1,0 +1,275 @@
+                         HTML Attribute:
+HTML attributes are special words which provide additional information about the elements or attributes are the modifier of the HTML element.
+Each element or tag can have attributes, which defines the behaviour of that element.
+Attributes should always be applied with start tag.
+The Attribute should always be applied with its name and value pair.
+The Attributes name and values are case sensitive, and it is recommended by W3C that it should be written in Lowercase only.
+You can add multiple attributes in one HTML element, but need to give space between two attributes.
+
+Syntax
+<element attribute_name="value">content</element>  
+
+
+Example:
+ <!DOCTYPE html>  
+<html>  
+<head>  
+</head>  
+<body>  
+    <h1> This is Style attribute</h1>  
+   <p style="height: 50px; color: blue">It will add style property in element</p>  
+    <p style="color: red">It will change the color of content</p>  
+</body>  
+</html>  
+
+Explanation of above example:
+
+<p style="height: 50px; color: blue">It will add style property in element</p>  
+
+
+
+In the above statement, we have used paragraph tags in which we have applied style attribute. This attribute is used for applying CSS property on any HTML element. It provides height to paragraph element of 50px and turns it colour to blue.
+
+<p style="color: red">It will change the color of content</p>  
+In the above statement we have again used style attribute in paragraph tag, which turns its colour red.
+
+
+
+The title attribute in HTML
+Description: The title attribute is used as text tooltip in most of the browsers. It display its text when user move the cursor over a link or any text. You can use it with any text or link to show the description about that link or text. In our example, we are taking this with paragraph tag and heading tag.
+
+Example
+With <h1> tag:
+
+<h1 title="This is heading tag">Example of title attribute</h1>  
+
+With <p> tag:
+
+<p title="This is paragraph tag">Move the cursor over the heading and paragraph, and you will see a 
+
+
+<!DOCTYPE html>  
+<html>  
+  <head>  
+ </head>  
+<body>  
+      
+  <h1 title="This is heading tag">Example of title attribute</h1>  
+  <p title="This is paragraph tag">Move the cursor over the heading and paragraph, and you will see a description as a tooltip</p>  
+  
+</body>  
+</html>  
+
+
+The href attribute in HTML
+Description: The href attribute is the main attribute of <a> anchor tag. This attribute gives the link address which is specified in that link. The href attribute provides the hyperlink, and if it is blank, then it will remain in same page.
+
+Example
+With link address:
+
+<a href="https://www.javatpoint.com/html-anchor">This is a link</a>  
+
+
+The src Attribute
+The src attribute is one of the important and required attribute of <img> element. It is source for the image which is required to display on browser. This attribute can contain image in same directory or another directory. The image name or source should be correct else browser will not display the image.
+
+<img src="whitepeacock.jpg" height="400" width="600">   
+
+The width and height Attributes
+The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
+
+Example
+<img src="img_girl.jpg" width="500" height="600">
+
+The alt Attribute
+The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.
+
+Example
+<img src="img_girl.jpg" alt="Girl with a jacket">
+
+Example
+See what happens if we try to display an image that does not exist:
+
+<img src="img_typo.jpg" alt="Girl with a jacket">
+
+The style Attribute:
+The style attribute is used to add styles to an element, such as color, font, size, and more.
+
+Example
+<p style="color:red;">This is a red paragraph.</p>
+
+The lang Attribute
+You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+
+The following example specifies English as the language:
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+
+The following example specifies English as the language and United States as the country:
+
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+
+The title Attribute
+The title attribute defines some extra information about an element.
+
+The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+
+Example
+<p title="I'm a tooltip">This is a paragraph.</p>
+
+
+We Suggest: Always Use Lowercase Attributes
+The HTML standard does not require lowercase attribute names.
+
+The title attribute (and all other attributes) can be written with uppercase or lowercase like title or TITLE.
+
+However,recommends lowercase attributes in HTML, and demands lowercase attributes for stricter document types like XHTML.
+
+we always use lowercase attribute names.
+
+We Suggest: Always Quote Attribute Values
+The HTML standard does not require quotes around attribute values.
+
+However, W3C recommends quotes in HTML, and demands quotes for stricter document types like XHTML.
+
+Good:
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+Bad:
+<a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
+Sometimes you have to use quotes. This example will not display the title attribute correctly, because it contains a space:
+
+Example
+<p title=about books>
+
+Single or Double Quotes?
+Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+
+In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+
+<p title='John "ShotGun" Nelson'>
+Or vice versa:
+
+<p title="John 'ShotGun' Nelson">
+
+Chapter Summary
+All HTML elements can have attributes
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                           HTML Elements:
+
+An HTML file is made of elements. These elements are responsible for creating web pages and define content in that webpage. An element in HTML usually consist of a start tag <tag name>, close tag </tag name> and content inserted between them. Technically, an element is a collection of start tag, attributes, end tag, content between them.
+
+Such as:
+
+<p> Hello world!!! </p>   
+Example
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>WebPage</title>  
+</head>  
+<body>  
+   <h1>This is my first web page</h1>  
+    <h2> How it looks?</h2>  
+     <p>It looks Nice!!!!!</p>  
+</body>  
+</html>  
+
+
+Void element: All the elements in HTML do not require to have start tag and end tag, some elements does not have content and end tag such elements are known as Void elements or empty elements. These elements are also called as unpaired tag.
+
+Some Void elements are <br> (represents a line break) , <hr>(represents a horizontal line), etc.
+
+
+Block-level and Inline HTML elements
+For the default display and styling purpose in HTML, all the elements are divided into two categories:
+
+Block-level element
+Inline element
+Block-level element:
+These are the elements, which structure main part of web page, by dividing a page into coherent blocks.
+A block-level element always start with new line and takes the full width of web page, from left to right.
+These elements can contain block-level as well as inline elements.
+Following are the block-level elements in HTML.
+
+<address>, <article>, <aside>, <blockquote>, <canvas>, <dd>, <div>, <dl>, <dt>, <fieldset>, <figcaption>, <figure>, <footer>, <form>, <h1>-<h6>, <header>, <hr>, <li>, <main>, <nav>, <noscript>, <ol>, <output>, <p>, <pre>, <section>, <table>, <tfoot>, <ul> and <video>.
+<!DOCTYPE html>  
+<html>  
+             <head>  
+    </head>  
+<body>  
+    <div style="background-color: lightblue">This is first div</div>  
+    <div style="background-color: lightgreen">This is second div</div>  
+    <p style="background-color: pink">This is a block level element</p>  
+</body>  
+</html>  
+
+
+In the above example we have used
+
+tag, which defines a section in a web page, and takes full width of page.
+We have used style attribute which is used to styling the HTML content, and the background color are showing that it's a block level element.
+
+Inline elements:
+Inline elements are those elements, which differentiate the part of a given text and provide it a particular function.
+These elements does not start with new line and take width as per requirement.
+The Inline elements are mostly used with other elements.
+<a>, <abbr>, <acronym>, <b>, <bdo>, <big>, <br>, <button>, <cite>, <code>, <dfn>, <em>, <i>, <img>, <input>, <kbd>, <label>, <map>, <object>, <q>, <samp>, <script>, <select>, <small>, <span>, <strong>, <sub>, <sup>, <textarea>, <time>, <tt>, <var>.
+
+
+<!DOCTYPE html>  
+<html>  
+    <head>  
+    </head>  
+<body>  
+    <a href="https://www.javatpoint.com/html-tutorial">Click on link</a>  
+    <span style="background-color: lightblue">this is inline element</span>  
+    <p>This will take width of text only</p>  
+ </body>  
+</html>   
+
+

@@ -1,0 +1,117 @@
+                        HTML Attribute:
+HTML attributes are special words which provide additional information about the elements or attributes are the modifier of the HTML element.
+Each element or tag can have attributes, which defines the behaviour of that element.
+Attributes should always be applied with start tag.
+The Attribute should always be applied with its name and value pair.
+The Attributes name and values are case sensitive, and it is recommended by W3C that it should be written in Lowercase only.
+You can add multiple attributes in one HTML element, but need to give space between two attributes.
+
+Syntax
+<element attribute_name="value">content</element>  
+
+
+Example:
+ <!DOCTYPE html>  
+<html>  
+<head>  
+</head>  
+<body>  
+    <h1> This is Style attribute</h1>  
+   <p style="height: 50px; color: blue">It will add style property in element</p>  
+    <p style="color: red">It will change the color of content</p>  
+</body>  
+</html>  
+
+
+
+Nested HTML Elements
+HTML elements can be nested (this means that elements can contain other elements).
+
+All HTML documents consist of nested HTML elements.
+
+The following example contains four HTML elements (<html>, <body>, <h1> and <p>):
+
+Example
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+
+Example Explained
+The <html> element is the root element and it defines the whole HTML document.
+
+It has a start tag <html> and an end tag </html>.
+
+Then, inside the <html> element there is a <body> element:
+
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+The <body> element defines the document's body.
+
+It has a start tag <body> and an end tag </body>.
+
+Then, inside the <body> element there are two other elements: <h1> and <p>:
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+The <h1> element defines a heading.
+
+It has a start tag <h1> and an end tag </h1>:
+
+<h1>My First Heading</h1>
+The <p> element defines a paragraph.
+
+It has a start tag <p> and an end tag </p>:
+
+<p>My first paragraph.</p>
+
+
+Never Skip the End Tag
+Some HTML elements will display correctly, even if you forget the end tag:
+
+Example
+<html>
+<body>
+
+<p>This is a paragraph
+<p>This is a paragraph
+
+</body>
+</html>
+
+
+Empty HTML Elements
+HTML elements with no content are called empty elements.
+
+The <br> tag defines a line break, and is an empty element without a closing tag:
+
+Example
+<p>This is a <br> paragraph with a line break.</p>
+
+HTML is Not Case Sensitive
+HTML tags are not case sensitive: <P> means the same as <p>.
+
+The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
+
+At W3Schools we always use lowercase tag names.
+
+
+HTML Tag Reference
+W3Schools' tag reference contains additional information about these tags and their attributes.
+
+Tag	                                       Description
+<html>	                                       Defines the root of an HTML document
+<body>	                                       Defines the document's body
+<h1> to <h6>	                      Defines HTML headings
+
+
