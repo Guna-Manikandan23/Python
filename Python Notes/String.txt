@@ -1,0 +1,65 @@
+1)Python Strings:-
+------------------------
+
+                i)Strings
+
+	ii)Quotes Inside Quotes
+
+	iii)Assign String to a Variable
+
+	iv)Multiline Strings
+
+	v)String Length
+
+	vi)Check String
+
+	vii)Check if NOT
+
+
+2)Python - Slicing Strings:-
+-----------------------------------
+
+	i)Slicing
+
+	ii)Slice From the Start
+
+	iii)Slice To the End
+
+	iv)Negative Indexing
+
+	
+Python - Modify Strings:-
+--------------------------------
+
+	i)Upper Case
+
+	ii)Lower Case
+
+	iii)Remove Whitespace
+
+	iv)Replace String
+
+	v)Split String
+
+	
+Python - Format - Strings:-
+----------------------------------
+
+	i)F-Strings
+
+	ii)Placeholders and Modifiers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

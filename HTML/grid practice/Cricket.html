@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Webpage</title>
+<style>
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 50px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1c87c9;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    left: 20px;
+}
+
+.logo {
+    height: 40px; 
+}
+
+header h1 {
+    margin-left: 90px; 
+}
+
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1c87c9;
+}
+
+
+.score p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1c87c9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #155f80;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="D:\Manikandan\images\logo.png" alt="Cricket Logo" class="logo">
+        </div>
+        <h1>Welcome to the Cricket World</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Cricket</a></li>
+                <li><a href="#live-score">Live Score</a></li>
+                <li><a href="#news">Latest News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Cricket</h2>
+        <p>Cricket is a bat-and-ball game played between two teams of eleven players on a field at the center of which is a 22-yard pitch with a wicket at each end, each comprising two bails balanced on three stumps.</p>
+    </section>
+
+    <section id="live-score">
+        <h2>Live Score</h2>
+        <div class="score">
+            <p id="team1-name">Team 1</p>
+            <p id="team1-score">0/0</p>
+            <p id="team2-name">Team 2</p>
+            <p id="team2-score">0/0</p>
+        </div>
+        <button onclick="updateScore()">Update Score</button>
+    </section>
+
+    <section id="news">
+        <h2>Latest Cricket News</h2>
+        <ul id="news-list">
+          
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cricket World. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>

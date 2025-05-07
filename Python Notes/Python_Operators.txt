@@ -1,0 +1,14 @@
+Python Operators:-
+-----------------------------
+
+            -->Operators are used to perform operations on variables and values.
+
+  Python divides the operators in the following groups:
+
+                     i)Arithmetic operators
+	ii)Assignment operators
+	iii)Comparison operators
+	iv)Logical operators
+	v)Identity operators
+	vi)Membership operators
+	vii)Bitwise operators

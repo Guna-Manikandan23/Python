@@ -1,0 +1,17 @@
+Recursion:-
+---------------
+   --->Recursion is a common mathematical and programming concept. It means that a function calls itself. This has the benefit of meaning that          you can loop through data to reach a result.
+
+  example,
+  -----------
+
+      def recursion(k):
+            if(k > 0):
+                 result = k+recursion(k - 1)
+                 print(result)
+           else:
+                 result = 0
+                 return result
+
+     print("Recursion Example Results:")
+     recursion(4)
