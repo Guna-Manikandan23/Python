@@ -1,0 +1,8 @@
+1)Amstrong Number
+2) Keep asking for a password until it's correct
+3)Sum numbers until the user types 0
+4)Countdown from 5 to 1
+5)Print only even numbers between 1 and 20
+6)Simple login system (3 tries only)
+7)Simulate a basic calculator (until user exits)
+8)Create a multiplication table for a given number

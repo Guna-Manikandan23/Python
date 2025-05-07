@@ -1,0 +1,12 @@
+1)Check if a number is positive, and if it's even or odd
+2)Grading system based on score
+3)Login System
+4)Electricity Bill Estimator
+5)Number Range and Parity Checker
+6)Age Checker for Voting 
+7)Hotel Room Booking System
+8)ATM Withdrawal System
+9)Simple Calculator 
+10)Ticket Pricing based on Age
+11)Leap Year Checker
+12)Check the shop is closed or Open

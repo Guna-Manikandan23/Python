@@ -1,0 +1,6 @@
+print("Hello World!")
+print("Hello","World")
+print("Hi","Iam","Mani"+"Kandan")
+print("Hello","World",sep=("@35"))
+print("Hello ","World",sep=("\b"))
+print("27.08.2003")
