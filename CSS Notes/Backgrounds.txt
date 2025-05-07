@@ -1,0 +1,160 @@
+CSS Backgrounds:-
+-----------------------------
+
+             -->The CSS background properties are used to add background effects for elements.
+
+CSS background-color:-
+------------------------------------
+
+           -->The background-color property specifies the background color of an element.
+
+                                 Example,
+                                ---------------
+
+                                   -->The background color of a page is set like this,
+
+                                                              body {
+                                                                            background-color: lightblue;
+                                                                         }
+ 
+      Opacity / Transparency:-
+      -----------------------------------
+
+                     -->The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent.
+
+CSS Background Image:-
+-------------------------------------
+
+            -->The background-image property specifies an image to use as the background of an element.
+
+            -->By default, the image is repeated so it covers the entire element.
+
+                          Example,
+                         --------------
+                                  -->Set the background image for a page,
+
+                                                 body {
+                                                                  background-image: url("paper.gif");
+                                                            }
+
+
+CSS Background Image Repeat:-
+-------------------------------------------------
+
+          -->By default, the background-image property repeats an image both horizontally and vertically.
+
+        
+                         Example,
+                        --------------
+                                                body {
+                                                               background-image: url("gradient_bg.png");
+                                                           }
+
+       CSS background-repeat: no-repeat:
+       ------------------------------------------------------
+
+               -->Showing the background image only once is also specified by the background-repeat property:
+
+                                  Example,
+                                  --------------
+
+                                            Show the background image only once,
+
+                                                       body {
+                                                                          background-image: url("img_tree.png");
+                                                                          background-repeat: no-repeat;
+                                                                  }
+
+             -->In the example above, the background image is placed in the same place as the text. We want to change the position of the image, 
+                  so that it does not disturb the text too much.
+
+
+       CSS background-position:-
+       ----------------------------------------
+
+                -->The background-position property is used to specify the position of the background image.
+
+                                Example,
+
+                                Position the background image in the top-right corner: 
+
+                                                  body {
+                                                                   background-image: url("img_tree.png");
+                                                                   background-repeat: no-repeat;
+                                                                   background-position: right top;
+                                                              }
+
+
+CSS Background Attachment:-
+----------------------------------------------
+
+        
+             -->The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):
+
+                      Example,
+                      --------------
+                                  -->Specify that the background image should be fixed,
+
+                                         body {
+                                                       background-image: url("img_tree.png");
+                                                       background-repeat: no-repeat;
+                                                       background-position: right top;
+                                                       background-attachment: fixed;
+                                                    }
+
+CSS Background Shorthand:-
+--------------------------------------------
+
+           -->When using the shorthand property the order of the property values is:
+
+                                            >background-color
+                                            >background-image
+                                            >background-repeat
+                                            >background-attachment
+                                            >background-position
+
+         -->It does not matter if one of the property values is missing, as long as the other ones are in this order. Note that we do not use the background-attachment 
+              property in the examples above, as it does not have a value.
+
+
+All CSS Background Properties:-
+-------------------------------------------------
+
+
+
+            Property                                                                     Description
+
+         background                                                    Sets all the background properties in one declaration
+
+     background-attachment                                 Sets whether a background image is fixed or scrolls with the rest of the page
+
+        background-clip                                             Specifies the painting area of the background
+
+         background-color                                        Sets the background color of an element
+
+       background-image                 	   Sets the background image for an element
+
+      background-origin                                         Specifies where the background image(s) is/are positioned
+
+     background-position                                      Sets the starting position of a background image 
+
+     background-repeat                                         Sets how a background image will be repeated
+
+      background-size	                                          Specifies the size of the background image(s)                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
